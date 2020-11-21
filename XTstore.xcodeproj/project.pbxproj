@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		841BE4B72566498B003C99A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4B62566498B003C99A7 /* AppDelegate.swift */; };
 		841BE4B92566498B003C99A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4B82566498B003C99A7 /* SceneDelegate.swift */; };
-		841BE4BB2566498B003C99A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4BA2566498B003C99A7 /* ViewController.swift */; };
-		841BE4BE2566498B003C99A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841BE4BC2566498B003C99A7 /* Main.storyboard */; };
+		841BE4BB2566498B003C99A7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4BA2566498B003C99A7 /* RootView.swift */; };
 		841BE4C02566498C003C99A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841BE4BF2566498C003C99A7 /* Assets.xcassets */; };
 		841BE4C32566498C003C99A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841BE4C12566498C003C99A7 /* LaunchScreen.storyboard */; };
 		841BE4CE2566498C003C99A7 /* XTstoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4CD2566498C003C99A7 /* XTstoreTests.swift */; };
 		841BE4D92566498C003C99A7 /* XTstoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4D82566498C003C99A7 /* XTstoreUITests.swift */; };
+		841BE4EA25665511003C99A7 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4E925665511003C99A7 /* ShopViewController.swift */; };
+		841BE4EC25665532003C99A7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4EB25665532003C99A7 /* AccountViewController.swift */; };
+		841BE4EE2566553E003C99A7 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4ED2566553E003C99A7 /* LiveViewController.swift */; };
+		841BE4F02566555A003C99A7 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4EF2566555A003C99A7 /* CartViewController.swift */; };
+		841BE4F225665579003C99A7 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4F125665579003C99A7 /* FavoriteViewController.swift */; };
+		841BE4F525666143003C99A7 /* TabarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BE4F425666143003C99A7 /* TabarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,7 @@
 		841BE4B32566498B003C99A7 /* XTstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841BE4B62566498B003C99A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841BE4B82566498B003C99A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		841BE4BA2566498B003C99A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		841BE4BD2566498B003C99A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841BE4BA2566498B003C99A7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		841BE4BF2566498C003C99A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841BE4C22566498C003C99A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841BE4C42566498C003C99A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		841BE4D42566498C003C99A7 /* XTstoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTstoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841BE4D82566498C003C99A7 /* XTstoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTstoreUITests.swift; sourceTree = "<group>"; };
 		841BE4DA2566498C003C99A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841BE4E925665511003C99A7 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		841BE4EB25665532003C99A7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		841BE4ED2566553E003C99A7 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		841BE4EF2566555A003C99A7 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		841BE4F125665579003C99A7 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		841BE4F425666143003C99A7 /* TabarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,10 @@
 		841BE4B52566498B003C99A7 /* XTstore */ = {
 			isa = PBXGroup;
 			children = (
+				841BE4F32566612F003C99A7 /* Model */,
+				841BE4E825665498003C99A7 /* View */,
 				841BE4B62566498B003C99A7 /* AppDelegate.swift */,
 				841BE4B82566498B003C99A7 /* SceneDelegate.swift */,
-				841BE4BA2566498B003C99A7 /* ViewController.swift */,
-				841BE4BC2566498B003C99A7 /* Main.storyboard */,
 				841BE4BF2566498C003C99A7 /* Assets.xcassets */,
 				841BE4C12566498C003C99A7 /* LaunchScreen.storyboard */,
 				841BE4C42566498C003C99A7 /* Info.plist */,
@@ -126,6 +136,27 @@
 				841BE4DA2566498C003C99A7 /* Info.plist */,
 			);
 			path = XTstoreUITests;
+			sourceTree = "<group>";
+		};
+		841BE4E825665498003C99A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				841BE4BA2566498B003C99A7 /* RootView.swift */,
+				841BE4E925665511003C99A7 /* ShopViewController.swift */,
+				841BE4EB25665532003C99A7 /* AccountViewController.swift */,
+				841BE4ED2566553E003C99A7 /* LiveViewController.swift */,
+				841BE4EF2566555A003C99A7 /* CartViewController.swift */,
+				841BE4F125665579003C99A7 /* FavoriteViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		841BE4F32566612F003C99A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841BE4F425666143003C99A7 /* TabarModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +265,6 @@
 			files = (
 				841BE4C32566498C003C99A7 /* LaunchScreen.storyboard in Resources */,
 				841BE4C02566498C003C99A7 /* Assets.xcassets in Resources */,
-				841BE4BE2566498B003C99A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841BE4BB2566498B003C99A7 /* ViewController.swift in Sources */,
+				841BE4EE2566553E003C99A7 /* LiveViewController.swift in Sources */,
+				841BE4EA25665511003C99A7 /* ShopViewController.swift in Sources */,
+				841BE4F525666143003C99A7 /* TabarModel.swift in Sources */,
+				841BE4F02566555A003C99A7 /* CartViewController.swift in Sources */,
+				841BE4EC25665532003C99A7 /* AccountViewController.swift in Sources */,
+				841BE4BB2566498B003C99A7 /* RootView.swift in Sources */,
 				841BE4B72566498B003C99A7 /* AppDelegate.swift in Sources */,
+				841BE4F225665579003C99A7 /* FavoriteViewController.swift in Sources */,
 				841BE4B92566498B003C99A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		841BE4BC2566498B003C99A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				841BE4BD2566498B003C99A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		841BE4C12566498C003C99A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9RXFTNQ3L;
 				INFOPLIST_FILE = XTstore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9RXFTNQ3L;
 				INFOPLIST_FILE = XTstore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

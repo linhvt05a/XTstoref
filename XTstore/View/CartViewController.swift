@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CartViewController.swift
 //  XTstore
 //
 //  Created by admin on 11/19/20.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .yellow
         // Do any additional setup after loading the view.
     }
 
-
 }
-
